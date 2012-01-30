@@ -7,6 +7,10 @@
 //
 
 #import "MackathonAppDelegate.h"
+#import "ClintViewController.h"
+#import "JamesViewController.h"
+#import "MattViewController.h"
+#import
 
 @implementation MackathonAppDelegate
 
@@ -18,6 +22,18 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+	
+	UITabBarController *rootViewController = [[UITabBarController alloc] initWithNibName:nil	bundle:nil];
+	
+	self.window.rootViewController = rootViewController;
+	
+	MattViewController *mvc = [[MattViewController alloc] initWithNibName:nil bundle:nil];
+	MattViewController *mvc2 = [[ClintViewController alloc] initWithNibName:nil bundle:nil];
+	
+	NSArray *controllersArray = [NSArray arrayWithObjects:mvc, mvc2, nil];
+	
+	[rootViewController setViewControllers:controllersArray];
+	
     return YES;
 }
 

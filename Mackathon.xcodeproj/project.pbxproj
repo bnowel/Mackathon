@@ -13,6 +13,14 @@
 		7DBC21C414D5E855009D8576 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DBC21C214D5E855009D8576 /* InfoPlist.strings */; };
 		7DBC21C614D5E855009D8576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC21C514D5E855009D8576 /* main.m */; };
 		7DBC21CA14D5E855009D8576 /* MackathonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC21C914D5E855009D8576 /* MackathonAppDelegate.m */; };
+		7DBC21D914D5E9C0009D8576 /* MattViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC21D714D5E9C0009D8576 /* MattViewController.m */; };
+		7DBC21DA14D5E9C0009D8576 /* MattViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBC21D814D5E9C0009D8576 /* MattViewController.xib */; };
+		7DC288B514D62981005EAD84 /* BernieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC288B314D62981005EAD84 /* BernieViewController.m */; };
+		7DC288B614D62981005EAD84 /* BernieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC288B414D62981005EAD84 /* BernieViewController.xib */; };
+		7DC288BB14D62990005EAD84 /* ClintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC288B914D62990005EAD84 /* ClintViewController.m */; };
+		7DC288BC14D62990005EAD84 /* ClintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC288BA14D62990005EAD84 /* ClintViewController.xib */; };
+		7DC288C014D6299B005EAD84 /* JamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC288BE14D6299B005EAD84 /* JamesViewController.m */; };
+		7DC288C114D6299B005EAD84 /* JamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC288BF14D6299B005EAD84 /* JamesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,24 @@
 		7DBC21B914D5E855009D8576 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7DBC21BB14D5E855009D8576 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DBC21BD14D5E855009D8576 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7DBC21C114D5E855009D8576 /* Mackathon-Info.plist */ = {isa = PBXFileReference; path = "Mackathon-Info.plist"; sourceTree = "<group>"; };
+		7DBC21C114D5E855009D8576 /* Mackathon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mackathon-Info.plist"; sourceTree = "<group>"; };
 		7DBC21C314D5E855009D8576 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DBC21C514D5E855009D8576 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7DBC21C714D5E855009D8576 /* Mackathon-Prefix.pch */ = {isa = PBXFileReference; path = "Mackathon-Prefix.pch"; sourceTree = "<group>"; };
-		7DBC21C814D5E855009D8576 /* MackathonAppDelegate.h */ = {isa = PBXFileReference; path = MackathonAppDelegate.h; sourceTree = "<group>"; };
+		7DBC21C714D5E855009D8576 /* Mackathon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mackathon-Prefix.pch"; sourceTree = "<group>"; };
+		7DBC21C814D5E855009D8576 /* MackathonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MackathonAppDelegate.h; sourceTree = "<group>"; };
 		7DBC21C914D5E855009D8576 /* MackathonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MackathonAppDelegate.m; sourceTree = "<group>"; };
+		7DBC21D614D5E9C0009D8576 /* MattViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MattViewController.h; sourceTree = "<group>"; };
+		7DBC21D714D5E9C0009D8576 /* MattViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MattViewController.m; sourceTree = "<group>"; };
+		7DBC21D814D5E9C0009D8576 /* MattViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MattViewController.xib; sourceTree = "<group>"; };
+		7DC288B214D62981005EAD84 /* BernieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BernieViewController.h; sourceTree = "<group>"; };
+		7DC288B314D62981005EAD84 /* BernieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BernieViewController.m; sourceTree = "<group>"; };
+		7DC288B414D62981005EAD84 /* BernieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BernieViewController.xib; sourceTree = "<group>"; };
+		7DC288B814D62990005EAD84 /* ClintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClintViewController.h; sourceTree = "<group>"; };
+		7DC288B914D62990005EAD84 /* ClintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClintViewController.m; sourceTree = "<group>"; };
+		7DC288BA14D62990005EAD84 /* ClintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClintViewController.xib; sourceTree = "<group>"; };
+		7DC288BD14D6299B005EAD84 /* JamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JamesViewController.h; sourceTree = "<group>"; };
+		7DC288BE14D6299B005EAD84 /* JamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JamesViewController.m; sourceTree = "<group>"; };
+		7DC288BF14D6299B005EAD84 /* JamesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JamesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +92,7 @@
 		7DBC21BF14D5E855009D8576 /* Mackathon */ = {
 			isa = PBXGroup;
 			children = (
+				7DBC21D514D5E99F009D8576 /* OurStuff */,
 				7DBC21C814D5E855009D8576 /* MackathonAppDelegate.h */,
 				7DBC21C914D5E855009D8576 /* MackathonAppDelegate.m */,
 				7DBC21C014D5E855009D8576 /* Supporting Files */,
@@ -88,6 +109,25 @@
 				7DBC21C714D5E855009D8576 /* Mackathon-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DBC21D514D5E99F009D8576 /* OurStuff */ = {
+			isa = PBXGroup;
+			children = (
+				7DBC21D614D5E9C0009D8576 /* MattViewController.h */,
+				7DBC21D714D5E9C0009D8576 /* MattViewController.m */,
+				7DBC21D814D5E9C0009D8576 /* MattViewController.xib */,
+				7DC288B214D62981005EAD84 /* BernieViewController.h */,
+				7DC288B314D62981005EAD84 /* BernieViewController.m */,
+				7DC288B414D62981005EAD84 /* BernieViewController.xib */,
+				7DC288B814D62990005EAD84 /* ClintViewController.h */,
+				7DC288B914D62990005EAD84 /* ClintViewController.m */,
+				7DC288BA14D62990005EAD84 /* ClintViewController.xib */,
+				7DC288BD14D6299B005EAD84 /* JamesViewController.h */,
+				7DC288BE14D6299B005EAD84 /* JamesViewController.m */,
+				7DC288BF14D6299B005EAD84 /* JamesViewController.xib */,
+			);
+			name = OurStuff;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DBC21C414D5E855009D8576 /* InfoPlist.strings in Resources */,
+				7DBC21DA14D5E9C0009D8576 /* MattViewController.xib in Resources */,
+				7DC288B614D62981005EAD84 /* BernieViewController.xib in Resources */,
+				7DC288BC14D62990005EAD84 /* ClintViewController.xib in Resources */,
+				7DC288C114D6299B005EAD84 /* JamesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +197,10 @@
 			files = (
 				7DBC21C614D5E855009D8576 /* main.m in Sources */,
 				7DBC21CA14D5E855009D8576 /* MackathonAppDelegate.m in Sources */,
+				7DBC21D914D5E9C0009D8576 /* MattViewController.m in Sources */,
+				7DC288B514D62981005EAD84 /* BernieViewController.m in Sources */,
+				7DC288BB14D62990005EAD84 /* ClintViewController.m in Sources */,
+				7DC288C014D6299B005EAD84 /* JamesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +304,7 @@
 				7DBC21CF14D5E855009D8576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
